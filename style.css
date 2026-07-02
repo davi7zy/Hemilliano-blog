@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root {
+    --deep-twilight: #03045eff;
+    --bright-teal-blue: #0077b6ff;
+    --turquoise-surf: #00b4d8ff;
+    --frosted-blue: #90e0efff;
+    --titulo: "Nunito Sans", sans-serif;
+    --texto: "Inconsolata", monospace; 
+    }
+    body{
+    background: var(--frosted-blue);
+    font-family: var(--texto);
+    }
+    
