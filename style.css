@@ -1,34 +1,67 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    }
-    
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-:root {
-    --deep-twilight: rgb(93, 7, 230);
-    --bright-teal-blue: rgb(104, 32, 199);
-    --turquoise-surf: rgb(83, 0, 216);
-    --frosted-blue: rgb(181, 87, 243);
-    --titulo: "Nunito Sans", sans-serif;
-    --texto: "Inconsolata", monospace; 
-    }
-    body{
-        background: var(--frosted-blue);
-        font-family: var(--texto);
-    }
-    header{
-        background-color: var(--frosted-blue);
-        display: flex;
-        justify-content: space-around;
-        color: var(--prdeep-twilight--);
-    }
-    .menu{
-        display: flex;
-        list-style: none;
-        gap: 18px;
-        margin: 10px;
-        color: var(--rosa);
-        text-transform: uppercase;
-        font-size: 21px;
-        }
+}
+
+:root{
+    --azulmarinho: #054a91ff;
+    --marinhofraco: #3e7cb1ff;
+    --azulmaisfraco: #81a4cdff;
+    --brancoazulado: #dbe4eeff;
+    --titulo: "Lora", serif;
+    --texto: "Cormorant", serif;
+}
+
+body{
+    background: var(--azulmaisfraco);
+    font-family: var(--texto);
+}
+
+header{
+    background-color: var(--azulmarinho); 
+    display: flex;
+    justify-content: space-around;
+    color: var(--brancoazulado);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin: 30px;
+    font-size: 22px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--brancoazulado);
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: var(--azulmaisfraco);
+}
+
+.img-capa{
+    width: 100%;
+}
+
+.saudacao{
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.saudacao-titulo{
+    font-family: var(--titulo);
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.saudacao-texto{
+    font-family: var(--texto);
+    font-size: 20px;}
