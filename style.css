@@ -8,10 +8,10 @@
 }
 
 :root{
-    --azulmarinho: #054a91ff;
-    --marinhofraco: #3e7cb1ff;
-    --azulmaisfraco: #81a4cdff;
-    --brancoazulado: #dbe4eeff;
+    --azulmarinho: rgb(7, 105, 64);
+    --marinhofraco: rgb(33, 156, 94);
+    --azulmaisfraco: rgb(31, 168, 38);
+    --brancoazulado: rgb(255, 255, 255);
     --titulo: "Lora", serif;
     --texto: "Cormorant", serif;
 }
@@ -26,6 +26,10 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--brancoazulado);
+}
+.logo{
+    width: 10%;
+    border-radius: 100%;
 }
 
 .menu{
@@ -65,3 +69,12 @@ header{
 .saudacao-texto{
     font-family: var(--texto);
     font-size: 20px;}
+    
+    footer{
+        background-color: var(--brancoazulado);
+        color: var(--azulmaisfraco);
+        font-family: var(--titulo);
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
